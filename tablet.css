@@ -1,0 +1,176 @@
+@media screen and (min-width: 834px) {
+  .mob-borderline-one,
+  .mob-borderline-two {
+    display: none;
+  }
+
+  .tab-borderline-one,
+  .tab-borderline-two {
+    display: block;
+  }
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-header-div,
+  .desktop-header-flex {
+    display: none;
+  }
+
+  .tab-land1, .tab-land2 {
+    display: inline-block;
+  }
+
+  .mob-3, .mob-4 {
+    display: none;
+  }
+
+  .fourth-section-div-mob, .fourth-section-grid-desktop {
+    display: none;
+  }
+
+  .fourth-section-grid-tab {
+    display: inline-block;
+  }
+
+  .tablet-nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0px 30px;
+  }
+
+  nav a {
+    color: black;
+    font-family: "ABeeZee", sans-serif;
+    padding-right: 12px;
+  }
+
+  .contact-icon img {
+    margin-left: 30px;
+    vertical-align: middle;
+  }
+
+  header {
+    background-image: url(assets-for-task11/tab-header-background.png);
+  }
+
+  h1 {
+    font-size: 50px;
+    padding-top: 31px;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 a {
+    font-size: 20px;
+  }
+
+  .header-text {
+    font-size: 20px;
+    padding-top: 21px;
+  }
+
+  .header-division {
+    max-width: 640px;
+    text-align: left;
+  }
+
+  .first-section {
+    
+    padding-bottom: 32px;
+  }
+
+  .more-news-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 42px;
+  }
+
+   header, .first-section, .second-section {
+    padding: 32px 67px;
+  }
+
+  .first-grid-div {
+    width: 341px;
+  }
+
+  .article {
+    font-size: 14px;
+    max-width: 304px;
+  }
+
+  .mob-item1, .mob-item2 {
+    max-width: 341px;
+  }
+
+  .second-section-grid {
+    grid-template-columns: repeat(auto-fill, 341px);
+  }
+
+  .article {
+    max-width: 304px;
+  }
+
+  .absolute-text {
+    width: 636px;
+   
+    top: 208px;
+    left:32px;
+  }
+
+  .absolute-div {
+    width: 70px;
+    height: 359px;
+  }
+
+  .absolute-div img {
+    max-width: 700px;
+  }
+
+  .absolute-text p {
+    font-size: 14px;
+  }
+
+  .third-section-h2{
+padding-left: 63px;
+padding-bottom: 9px;
+   }
+
+   .third-section-grid {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fill, 700px);
+    padding-left: 63px;
+  }
+
+  .fourth-section-grid-tab-div {
+    width: 340px;
+    height: 251px;
+    border: 1px solid rgb(165, 10, 10);
+  }
+
+  .fourth-section-grid-tab {
+    width: 834px;
+    height: 500px;
+    border: 2px solid palevioletred;
+    
+  }
+
+
+
+  
+  
+
+
+
+   
+
+
+  
+}

@@ -1,0 +1,113 @@
+@media screen and (min-width: 1440px) {
+  .first-section {
+    display: none;
+  }
+
+  .header-division {
+    display: none;
+  }
+
+  .desktop-item1,
+  .desktop-item2,
+  .desktop-item3 {
+    display: inline-block;
+  }
+
+  .mob-item1,
+  .mob-item2,
+  .tab-land1,
+  .tab-land2 {
+    display: none;
+  }
+
+  .desktop-land1,
+  .desktop-land2 {
+    display: inline-block;
+  }
+
+  .fourth-section-grid-tab,
+  .fouth-section-grid-mob {
+    display: none;
+  }
+
+  .desktop-header-div {
+    display: inline-block;
+    background-color: white;
+    width: 440px;
+    height: 404px;
+    padding: 27px;
+  }
+
+  .desktop-header-flex {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 72px;
+  }
+
+  .header-div {
+    display: inline-block;
+    max-width: 576px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header-text {
+    font-size: 16px;
+  }
+
+  .more-news-flex {
+    flex-direction: column;
+  }
+
+  .lil-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lil-flex {
+    align-items: center;
+  }
+
+  .white-arrow {
+    margin-right: 23px;
+  }
+
+  header {
+    background-image: url(assets-for-task11/desktop-header-background.png);
+    height: 600px;
+  }
+
+  header,
+  .first-section,
+  .second-section,
+  .third-section {
+    padding: 33px 130px;
+  }
+
+  .second-section-grid {
+    grid-template-columns: repeat(auto-fill, 380px);
+    gap: 20px;
+  }
+
+  .first-grid-div,
+  .desktop-item3 {
+    width: 380px;
+    border: 1px solid black;
+  }
+
+  .article {
+    max-width: 339px;
+  }
+
+  .desktop-item1,
+  .desktop-item2,
+  .desktop-item3 {
+    width: 380px;
+  }
+
+  .third-section-grid, .third-section-h2 {
+    padding-left: 0px;
+  }
+
+  
+}
